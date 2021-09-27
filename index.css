@@ -1,0 +1,59 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+li {
+  margin-bottom: 30px;
+  width: 40vw;
+}
+.list-item {
+  display: flex;
+}
+.img {
+  margin-right: 3vw;
+  width: 200px;
+  height: auto;
+}
+.dog-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+  li {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img {
+    width: 150px;
+  }
+  ul {
+    padding: 0 5%;
+  }
+}
+
+#prev {
+  position: fixed;
+  top: 45%;
+  left: 0;
+}
+.dog-name {
+  margin-bottom: 8px;
+}
+#next {
+  position: fixed;
+  top: 45%;
+  right: 0;
+}
+
+i {
+  font-size: 2rem;
+}
+i:hover {
+  cursor: pointer;
+}
